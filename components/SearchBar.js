@@ -44,10 +44,10 @@ let styles = StyleSheet.create({
   searchBox: {
     paddingLeft: 36,
     paddingRight: 36,
-    margin: 8,
+    margin: 5,
     borderRadius: 3,
     overflow: 'hidden',
-    height: 40,
+    height: 30,
     ...Platform.select({
       ios: {
         height: 30,
@@ -60,20 +60,20 @@ let styles = StyleSheet.create({
   icon: {
     backgroundColor: 'transparent',
     position: 'absolute',
-    top: 15.5,
+    top: 5,
     ...Platform.select({
       android: {
-        top: 20,
+        top: 5,
       },
     }),
   },
   historyIcon: {
-    left: 16,
+    left: 10,
     backgroundColor: 'transparent',
     position: 'absolute',
   },
   searchIcon: {
-    right: 16,
+    right: 10,
     backgroundColor: 'transparent',
     position: 'absolute',
   },
