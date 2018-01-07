@@ -3,14 +3,18 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "react-native run-ios",
+    "logs": "react-native log-ios",
     "test": "jest",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
   },
   "dependencies": {
+    "buffer": "^5.0.8",
+    "mdict": "^1.0.2",
     "react": "16.0.0",
     "react-native": "0.51.0",
+    "react-native-fs": "^2.9.7",
     "react-native-status-bar-height": "^1.0.1",
     "react-native-tab-navigator": "^0.3.4",
     "react-native-vector-icons": "^4.4.3"
